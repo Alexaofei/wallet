@@ -10,8 +10,7 @@ module.exports = {
   entry: path.resolve(__dirname, '../src/index.js'),
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].js',
-    // chunkFilename: '[name].[contenthash:7].bundle.js',
+    filename: '[name].[contenthash:7].bundle.js',
   },
   devServer: {
     historyApiFallback: true,
